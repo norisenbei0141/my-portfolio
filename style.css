@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(#000428, #004e92);
+  color: white;
+}
+
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+}
+
+.stars {
+  text-align: center;
+  font-size: 1.5rem;
+  color: gold;
+  margin-bottom: 1rem;
+}
+
+.main-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: gold;
+  margin-top: 1rem;
+}
+
+.title p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  color: #ffdf9e;
+}
+
+.constellation h3 {
+  font-family: 'serif';
+  margin-top: 2rem;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.constellation p {
+  font-style: italic;
+}
+
+.element h3 {
+  text-transform: lowercase;
+  color: #ff7675;
+  margin-top: 2rem;
+}
+
+.element ul {
+  padding-left: 1rem;
+  font-size: 0.95rem;
+}
+
+.element li {
+  margin-bottom: 0.4rem;
+}
+
+.wind { color: #00e5ff; font-weight: bold; }
+.rock { color: #ffa726; font-weight: bold; }
+.thunder { color: #c471ed; font-weight: bold; }
+.grass { color: #00e676; font-weight: bold; }
+.water { color: #64b5f6; font-weight: bold; }
+.flame { color: #ff5252; font-weight: bold; }
+.new { background: yellow; color: black; padding: 0 5px; border-radius: 5px; }
