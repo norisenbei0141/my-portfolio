@@ -76,10 +76,38 @@ header {
   margin-bottom: 0.4rem;
 }
 
-.wind { color: #00e5ff; font-weight: bold; }
+.wind　Mondstadt  Barbatos { color: #00e5ff; font-weight: bold; }
 .rock { color: #ffa726; font-weight: bold; }
 .thunder { color: #c471ed; font-weight: bold; }
 .grass { color: #00e676; font-weight: bold; }
 .water { color: #64b5f6; font-weight: bold; }
 .flame { color: #ff5252; font-weight: bold; }
 .new { background: yellow; color: black; padding: 0 5px; border-radius: 5px; }
+
+.element-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.element-text {
+  flex: 1;
+}
+
+.命の星座-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  flex-shrink: 0;
+}
+
+.命の星座-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
