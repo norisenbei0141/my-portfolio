@@ -84,7 +84,7 @@ header {
 .flame { color: #ff5252; font-weight: bold; }
 .new { background: yellow; color: black; padding: 0 5px; border-radius: 5px; }
 
-.element-section {
+.constellation-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
