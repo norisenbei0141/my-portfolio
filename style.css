@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  color: white　!important;
 }
 
 .card {
@@ -34,7 +35,6 @@ header {
 .main-image img {
   width: 100%;
   border-radius: 12px;
-  .icon1 {
   filter: brightness(1.3); 
 }
 
