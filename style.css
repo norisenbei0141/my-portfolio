@@ -19,6 +19,7 @@ header {
   align-items: center;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  color: white
 }
 
 .menu-icon {
@@ -104,6 +105,7 @@ header {
 }
 
 .wind { color: #00e5ff; font-weight: bold; }
+.Mondstadt { color: #00e5ff; font-weight: bold; }
 .rock { color: #ffa726; font-weight: bold; }
 .thunder { color: #c471ed; font-weight: bold; }
 .grass { color: #00e676; font-weight: bold; }
