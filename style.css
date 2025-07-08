@@ -36,7 +36,7 @@ header {
 .main-image img {
   width: 100%;
   border-radius: 12px;
-  filter: brightness(1.1); 
+  filter: brightness(1.0); 
 }
 
 .title h2 {
