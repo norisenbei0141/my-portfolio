@@ -5,6 +5,13 @@ body {
   background-attachment: fixed;
   background-position: center;
   color: white　!important;
+  animation: bg-move 60s linear infinite;
+  background-size: cover;
+}
+
+@keyframes bg-move {
+  0% { background-position: center top; }
+  100% { background-position: center bottom; }
 }
 
 .card {
