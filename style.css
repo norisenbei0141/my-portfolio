@@ -31,7 +31,20 @@ header {
   font-size: 1.5rem;
   color: gold;
   margin-bottom: 1rem;
+  animation: twinkle 2s ease-in-out infinite;
 }
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 10px gold, 0 0 20px orange;
+  }
+  50% {
+    opacity: 0.6;
+    text-shadow: 0 0 2px gold;
+  }
+}
+
 
 .main-image img {
   width: 100%;
