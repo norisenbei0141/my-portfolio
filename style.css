@@ -118,11 +118,13 @@ header {
 }
 
 .element ul {
+  text-align: center;
   padding-left: 1rem;
-  font-size: 0.95rem;
+  font-size: 3.0rem;
 }
 
 .element li {
+  text-align: center;
   margin-bottom: 0.4rem;
 }
 
