@@ -78,13 +78,13 @@ header {
   font-family: 'serif';
   margin-top: 2rem;
   color: #ccc;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .constellation p {
   font-style: italic;
   color: #ccc;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .命の星座-container {
@@ -116,13 +116,13 @@ header {
   text-transform: lowercase;
   color: #ff7675;
   margin-top: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .element ul {
   text-align: center;
   padding-left: 1rem;
-  font-size: 3.0rem;
+  font-size: 1.3rem;
 }
 
 .element li {
