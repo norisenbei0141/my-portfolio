@@ -29,8 +29,8 @@ header {
 
 .stars {
   text-align: center;
-  font-size: 1.5rem;
-  color: gold;
+  font-size: 2rem;
+  color: ffd700;
   margin-bottom: 1rem;
   animation: twinkle 2s ease-in-out infinite;
 }
