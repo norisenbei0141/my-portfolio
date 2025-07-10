@@ -16,20 +16,15 @@ body {
 
 header {
   display: flex;
-  justify-content: center; 
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem; 
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  position: relative;
+  color: white;
 }
 
 .menu-icon {
-  position: absolute;
-  right: 0;
-  top: 0;
   font-size: 2.5rem;
-  padding: 1rem;
 }
 
 .stars {
@@ -86,22 +81,10 @@ header {
   font-size: 2rem;
 }
 
-.constellation-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
-.constellation-text {
-  flex: 1;
-  min-width: 250px;
-}
 
 .命の星座-image {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid white;
