@@ -103,8 +103,17 @@ header {
   height: 100%;
   object-fit: cover;
   transform: translate(50px, -50px);
+  animation: glow 2s ease-in-out infinite;
 }
 
+@keyframes glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px gold);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px white);
+  }
+}
 
 .element h3 {
   text-transform: lowercase;
@@ -116,7 +125,7 @@ header {
 .element ul {
   text-align: center;
   padding-left: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .element li {
@@ -176,17 +185,18 @@ header {
     gap: 40px;
   }
 
-  .circle-image img {
-    width: 200px;
-    height: 200px;
+  .命の星座-image img {
+    width: 500px;
+    height: 500px;
+    transform: translate(50px, -50px);
   }
 
   .title h2 {
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
 
   .title p {
-    font-size: 1.1rem;
+    font-size: 3rem;
     text-align: center;
   }
 }
