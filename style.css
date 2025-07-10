@@ -61,14 +61,14 @@ header {
 
 .title h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 5rem;
   color: gold;
   margin-top: 1rem;
 }
 
 .title p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   margin-top: 0.5rem;
   color: #ffdf9e;
@@ -78,12 +78,13 @@ header {
   font-family: 'serif';
   margin-top: 2rem;
   color: #ccc;
-  font-size: 1.2rem;
+  font-size: 5rem;
 }
 
 .constellation p {
   font-style: italic;
   color: #ccc;
+  font-size: 3rem;
 }
 
 .命の星座-container {
@@ -115,6 +116,7 @@ header {
   text-transform: lowercase;
   color: #ff7675;
   margin-top: 2rem;
+  font-size: 5rem;
 }
 
 .element ul {
@@ -126,6 +128,10 @@ header {
 .element li {
   text-align: center;
   margin-bottom: 0.4rem;
+}
+
+.element li::marker {
+  color: white;
 }
 
 .wind { color: #00e5ff; font-weight: bold; }
