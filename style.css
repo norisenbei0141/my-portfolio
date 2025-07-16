@@ -150,6 +150,76 @@ header {
 .Natlan { color: #ff5252; font-weight: bold; }
 .Haborym { color: #ff5252; font-weight: bold; }
 .new { background: yellow; color: black; padding: 0 5px; border-radius: 5px; }
+
+.wind,
+.Mondstadt,
+.Barbatos,
+.rock,
+.Liyue,
+.Morax,
+.thunder,
+.Inazuma,
+.Beelzebul,
+.grass,
+.Sumeru,
+.Buer,
+.water,
+.Fontaine,
+.Focalors,
+.flame,
+.Natlan,
+.Haborym {
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease; /* ← アニメーション効果 */
+}
+
+/* ホバー時の変化 */
+.wind:hover,
+.Mondstadt:hover,
+.Barbatos:hover {
+  color: #66ffff; /* 明るめのシアン */
+  transform: scale(1.05); /* 少し拡大 */
+}
+
+.rock:hover,
+.Liyue:hover,
+.Morax:hover {
+  color: #ffc46b;
+  transform: scale(1.05);
+}
+
+.thunder:hover,
+.Inazuma:hover,
+.Beelzebul:hover {
+  color: #d9a0ff;
+  transform: scale(1.05);
+}
+
+.grass:hover,
+.Sumeru:hover,
+.Buer:hover {
+  color: #66ffb2;
+  transform: scale(1.05);
+}
+
+.water:hover,
+.Fontaine:hover,
+.Focalors:hover {
+  color: #a2d4ff;
+  transform: scale(1.05);
+}
+
+.flame:hover,
+.Natlan:hover,
+.Haborym:hover {
+  color: #ff8888;
+  transform: scale(1.05);
+}
+
+
+
+
+
 @media (min-width: 768px) {
   .card {
     max-width: 800px;
