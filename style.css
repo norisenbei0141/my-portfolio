@@ -229,10 +229,17 @@ header {
     gap: 2rem;
   }
 
-  header {
-    text-align: center;
-    font-size: 1.8rem;
-  }
+
+header {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+header .charactor {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 
   .main-image img {
     width: 60%;
