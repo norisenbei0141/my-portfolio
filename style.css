@@ -223,11 +223,12 @@ header {
     flex-direction: column;
     gap: 2rem;
   }
+  
 　 header .charactor {
     text-align: center;
     font-size: 1.8rem;
   }
-}
+
   .main-image img {
     width: 60%;
     margin: 0 auto;
@@ -259,4 +260,6 @@ header {
   }
   .stars {
   font-size: 4rem;
+}
+
 }
