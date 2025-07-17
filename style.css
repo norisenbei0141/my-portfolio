@@ -131,9 +131,9 @@ header {
   color: white;
 }
 
-.wind { color: #00e5ff; font-weight: bold; }
-.Mondstadt { color: #00e5ff; font-weight: bold; }
-.Barbatos { color: #00e5ff; font-weight: bold; }
+.wind { color: #40FDC7; font-weight: bold; }
+.Mondstadt { color: #40FDC7; font-weight: bold; }
+.Barbatos { color: #40FDC7; font-weight: bold; }
 .rock { color: #ffa726; font-weight: bold; }
 .Liyue { color: #ffa726; font-weight: bold; }
 .Morax { color: #ffa726; font-weight: bold; }
@@ -143,9 +143,9 @@ header {
 .grass { color: #00e676; font-weight: bold; }
 .Sumeru { color: #00e676; font-weight: bold; }
 .Buer { color: #00e676; font-weight: bold; }
-.water { color: #64b5f6; font-weight: bold; }
-.Fontaine { color: #64b5f6; font-weight: bold; }
-.Focalors { color: #64b5f6; font-weight: bold; }
+.water { color: #00D9FF; font-weight: bold; }
+.Fontaine { color: #00D9FF; font-weight: bold; }
+.Focalors { color: #00D9FF; font-weight: bold; }
 .flame { color: #ff5252; font-weight: bold; }
 .Natlan { color: #ff5252; font-weight: bold; }
 .Haborym { color: #ff5252; font-weight: bold; }
@@ -170,15 +170,15 @@ header {
 .Natlan,
 .Haborym {
   font-weight: bold;
-  transition: color 0.3s ease, transform 0.3s ease; /* ← アニメーション効果 */
+  transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 /* ホバー時の変化 */
 .wind:hover,
 .Mondstadt:hover,
 .Barbatos:hover {
-  color: #66ffff; /* 明るめのシアン */
-  transform: scale(1.05); /* 少し拡大 */
+  color: #88FFDD; 
+  transform: scale(1.05); 
 }
 
 .rock:hover,
@@ -205,7 +205,7 @@ header {
 .water:hover,
 .Fontaine:hover,
 .Focalors:hover {
-  color: #a2d4ff;
+  color: #6EB9FF;
   transform: scale(1.05);
 }
 
