@@ -23,6 +23,11 @@ header {
   color: white;
 }
 
+.Gensin {
+  font-size: 1.2rem;
+  color: white;
+}
+
 .menu-icon {
   font-size: 2.5rem;
 }
@@ -227,6 +232,11 @@ header {
   header .charactor {
     text-align: center;
     font-size: 3rem;
+  }
+
+  .Gensin {
+  font-size: 3rem;
+  color: white;
   }
 
   .main-image img {
