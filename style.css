@@ -223,8 +223,8 @@ header {
     flex-direction: column;
     gap: 2rem;
   }
-  
-　 header .charactor {
+
+  header .charactor {
     text-align: center;
     font-size: 1.8rem;
   }
@@ -234,6 +234,7 @@ header {
     margin: 0 auto;
     display: block;
   }
+
   .element ul {
     columns: 2; 
     column-gap: 2rem;
@@ -258,8 +259,9 @@ header {
     font-size: 3rem;
     text-align: center;
   }
+
   .stars {
-  font-size: 4rem;
+    font-size: 4rem;
+  }
 }
 
-}
