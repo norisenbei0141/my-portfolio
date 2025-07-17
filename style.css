@@ -140,9 +140,9 @@ header {
 .thunder { color: #c471ed; font-weight: bold; }
 .Inazuma { color: #c471ed; font-weight: bold; }
 .Beelzebul { color: #c471ed; font-weight: bold; }
-.grass { color: #00e676; font-weight: bold; }
-.Sumeru { color: #00e676; font-weight: bold; }
-.Buer { color: #00e676; font-weight: bold; }
+.grass { color: #00D520; font-weight: bold; }
+.Sumeru { color: #00D520; font-weight: bold; }
+.Buer { color: #00D520; font-weight: bold; }
 .water { color: #00D9FF; font-weight: bold; }
 .Fontaine { color: #00D9FF; font-weight: bold; }
 .Focalors { color: #00D9FF; font-weight: bold; }
@@ -198,7 +198,7 @@ header {
 .grass:hover,
 .Sumeru:hover,
 .Buer:hover {
-  color: #66ffb2;
+  color: #17F638;
   transform: scale(1.05);
 }
 
@@ -230,14 +230,10 @@ header {
   }
 
 
-header {
-  text-align: center;
-  font-size: 1.8rem;
-}
-
-header .charactor {
-  text-align: center;
-  font-size: 1.8rem;
+  header .charactor {
+    text-align: center;
+    font-size: 1.8rem;
+  }
 }
 
 
