@@ -260,6 +260,8 @@ header {
     width: 500px;
     height: 500px;
     transform: translate(50px, -50px);
+    left: 30px;  
+    top: 30px;
   }
 
   .title h2 {
