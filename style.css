@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  color: white　!important;
+  color: white !important;
 }
 
 
@@ -21,11 +21,20 @@ header {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: white;
+  position: relative;
 }
 
 .Gensin {
   font-size: 5rem;
   color: white;
+}
+
+.character {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  white-space: nowrap;
 }
 
 .menu-icon {
@@ -229,15 +238,14 @@ header {
     gap: 2rem;
   }
 
-  header .charactor {
-    text-align: center;
-    font-size: 3rem;
+  .Gensin {
+    font-size: 10rem;
   }
 
-  .Gensin {
-  font-size: 10rem;
-  color: white;
+  .character {
+    font-size: 4rem;
   }
+
 
   .main-image img {
     width: 60%;
