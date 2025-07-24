@@ -27,6 +27,7 @@ header {
 .Gensin {
   font-size: 5rem;
   color: white;
+  font-family: 'Georgia', serif;
 }
 
 .character {
@@ -107,7 +108,7 @@ header {
   animation: glow 2s ease-in-out infinite;
 }
 
-.命の星座-image img {
+.circle-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -263,7 +264,7 @@ header {
     gap: 40px;
   }
 
-  .命の星座-image img {
+  .circle-image img {
     width: 500px;
     height: 500px;
     transform: translate(50px, -50px);
